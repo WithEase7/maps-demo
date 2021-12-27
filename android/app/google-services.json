@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837288578688",
+    "project_id": "features-b5526",
+    "storage_bucket": "features-b5526.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837288578688:android:45c9257a798873e321a065",
+        "android_client_info": {
+          "package_name": "com.ease.features"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837288578688-frksuicp54h85oa2gpv0g82jgg70aega.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBah5ios7T1x-pWbY659MrkP0F3XhM1yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837288578688-frksuicp54h85oa2gpv0g82jgg70aega.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
