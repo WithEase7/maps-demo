@@ -1,9 +1,9 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Home from './Screens/Home';
-import Login from './Screens/Login';
-import {Image, View, Text, TextInput, TouchableOpacity} from 'react-native';
+import Demo from './Screens/Demo';
+import MapComponent from './Screens/MapComponent';
+import { View, TextInput, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const Stack = createNativeStackNavigator();
@@ -34,10 +34,10 @@ const App = () => {
             fontFamily: 'serif',
           },
         }}>
-        {/* <Stack.Screen name="Home" component={Home} /> */}
+        <Stack.Screen name="Demo" component={Demo} />
         <Stack.Screen
-          name="Login"
-          component={Login}
+          name="Maps"
+          component={MapComponent}
           options={{title: "Map"}}
           // options={({ route }) => ({ title: route.params.name })}
           // options={{headerTitle: () => <LogoTitle />}}
@@ -48,16 +48,5 @@ const App = () => {
   );
 };
 
-function LogoTitle() {
-  return (
-    // <Image
-    //   style={{width: 300, height: 50}}
-    //   source={require('./assets/images/talltree.jpg')}
-    // />
-    <View>
-      <Text>Login</Text>
-    </View>
-  );
-}
 
 export default App;
