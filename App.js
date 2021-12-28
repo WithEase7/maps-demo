@@ -11,7 +11,8 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator
+      <MapComponent />
+      {/* <Stack.Navigator
         screenOptions={{
           // headerTintColor: '#fff',
           headerTitleStyle: {
@@ -27,7 +28,7 @@ const App = () => {
           // options={({ route }) => ({ title: route.params.name })}
           initialParams={{itemId: 20}}
         />
-      </Stack.Navigator>
+      </Stack.Navigator> */}
     </NavigationContainer>
   );
 };
